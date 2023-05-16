@@ -1,0 +1,26 @@
+
+div {
+    height: 50px;
+    clear: both;  }
+  
+  p {
+    height: 20px;
+    width: 200px;;
+    float: left;
+    
+  }
+  
+  input {
+
+    margin-left: 10px;
+    margin-top: 20px;
+    float:left;
+    
+  }
+  
+  button {
+
+    margin-top: 20px;
+    padding: 10px;
+
+  }
