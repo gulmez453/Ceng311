@@ -1,0 +1,145 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    .container {
+      width: 500px;
+      margin: 0 auto;
+    }
+    label {
+      float: left;
+      position: relative;
+      display: block;
+      margin-top: 10px;
+      height: 40px;
+      width: 190px;
+      font-family: 'Roboto', sans-serif;
+      margin-left: 15px;
+      color: white;
+    }
+    input {
+      display: flex;
+      position: relative;
+      width: 170px;
+      padding: 5px;
+      margin-left: 100px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: rgb(255, 0, 93);
+      color: white;  
+    }
+    i.fa-birthday-cake {
+      position: relative;
+      font-size: 400px;
+      color: rgb(255, 0, 93);
+      z-index: -1;
+    }
+    i.fa-birthday-cake#alt {
+    
+        margin-top: -380;
+      font-size: 400px;
+      color: rgb(255, 0, 93);
+      z-index: -1;
+    }
+
+    i.fa-birthday-cake#new {
+    
+        margin-top: -200;
+      font-size: 400px;
+      color: rgb(255, 0, 93);
+      z-index: -1;
+    }
+
+    div {
+      clear: both;
+    }
+    #kgtext{
+      float: left;
+
+      width: 50px;
+    }
+    #kgtext1{
+      display: inline-block;
+
+      position:fixed;
+      width: 45px;
+      font-size: xx-large;
+      margin-top: -7px;
+   
+    }
+    #kgtext2{
+      display: inline-block;
+
+      position:fixed;
+      margin-left: 45px;
+      width: 45px;
+      font-size: xx-large;
+      margin-top: -7px;
+    }
+    #kg{
+      display: inline-block;
+      position:fixed;
+      margin-left: 155px;
+      
+    }
+    select {
+      width: 170px;
+      padding: 5px;
+      color: rgb(0, 0, 0);
+  
+    }
+
+    h1{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      text-align: center;
+      color:white;
+    }
+
+    .body {
+       
+    margin-top: -180px;
+    width: 400px;
+    background-color: rgb(255, 0, 93);
+       
+    }
+    .rbody {
+        
+        margin-top: -150px;
+        width: 400px;
+        background-color: rgb(255, 0, 93);
+        height: 100px;
+           
+        }
+
+    #result{
+
+
+        font-family: 'Roboto', sans-serif;
+        font-weight:500;
+        text-align: center;
+        color:white;
+        font-size: x-large;
+        font-style: italic;
+    }
+    .button {
+      display: inline;
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -18%;
+    }
+    button {
+
+      background-color:white;
+      color: rgb(255, 0, 93);
+    }
+    button:hover {
+    background-color: rgb(255, 190, 214);
+    color: black;
+    }
+
+
+ 

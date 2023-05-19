@@ -1,0 +1,54 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Cake Order Form</title>
+</head>
+<body>
+  <div class="container">
+
+    <i class="fa fa-birthday-cake"></i>
+   
+
+    <form target="_blank" action="new.html" method="POST" id="pasta-form">
+        <div class="body">
+            <h1>Cake Order Form</h1>
+        <div><label for="name">Name</label>
+      <input type="text" id="name" name="name" required></div>
+      <div>
+
+        <div id="kgtext"><label id="kg-text">kg</label></div>
+        <div id="kgtext1"><label id="kg-text1">+</label> </div>
+        <div id="kgtext2"><label id="kg-text2">-</label></div>
+      <input type="number" id="kg" name="kg" min="1" max="10" value="1"></div>
+  
+      <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email"></div>
+      <div>
+
+      <label id="type-text" for="type">Click here to change type</label>
+      <select id="type" name="type" >
+        <option value="Chocolate Cake">Chocolate Cake</option>
+        <option value="Cheesecake">Cheesecake</option>
+        <option value="White Cake / Vanilla">White Cake / Vanilla</option>
+        <option value="Sponge Cake">Sponge Cake</option>
+        <option value="Ice Cream Cake">Ice Cream Cake</option>
+      </select></div>
+      <div>
+      <label for="date">Delivery Date</label>
+      <input type="text" id="date" required name="date"></div>
+      <div></div></div>
+      <div class="button"><button type="submit">Order</button></div>
+    </form>
+
+    <i class="fa fa-birthday-cake" id="alt"></i>
+    <div id="result"></div>
+  </div>
+
+  <script src="sprint2.js"></script>
+</body>
+</html>
